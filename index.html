@@ -1,1 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Understanding Variables</title>
+    </head>
+    <body>
+        <h1>Understanding Variables</h1>
 
+        <button onclick="showVariables()">Show Variables</button>
+
+        <p id="demo"></p>
+
+        <script>
+            function showVariables() {
+                // Declare a variable and assign a value
+                var name = "John Doe";
+                var age = 30;
+                var isStudent = false;
+
+                // Display variable values
+                document.getElementById("demo").innerHTML = 
+                "The variable 'name' has a value of: " + name + "<br>" +
+                "The variable 'age' has a value of: " + age + "<br>" +
+                "The variable 'isStudent' has a value of: " + isStudent;
+            }
+        </script>
+    </body>
+</html>
